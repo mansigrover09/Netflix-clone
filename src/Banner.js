@@ -53,6 +53,8 @@ function Banner() {
       </h1>
       {/* description */}
     </div>
+    {/* empty div for fading the bottom of the banner */}
+    <div className="banner--fadeBottom" />      
  </header>
   );
 }
